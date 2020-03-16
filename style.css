@@ -123,7 +123,7 @@ body {
 }
 
 .top-container__sidebar-1 {
-  background: url(img/sidebg1.png);
+  background: linear-gradient(rgba(236, 240, 241,0.7), rgba(44, 62, 80,0.7)), url(img/sidebg1.png);
   background-repeat: no-repeat;
   color: white;
   padding: 43px 10px;
@@ -133,10 +133,11 @@ body {
 .top-container__sidebar h2 {
   padding-top: 80px;
   font-weight: bolder;
+  z-index: 1;
 }
 
 .top-container__sidebar-2 {
-  background: url(img/sidebg2.jpg);
+  background: linear-gradient(rgba(236, 240, 241,0.7), rgba(44, 62, 80,0.7)), url(img/sidebg2.jpg);
   background-repeat: no-repeat;
   color: white;
   padding: 43px 10px;
@@ -151,8 +152,8 @@ body {
 
 .grid-content1 {
   display: grid;
-  grid-template-columns: auto auto auto auto;
   grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .content-1__header {
@@ -206,7 +207,7 @@ body {
 
 .grid-2__deals {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 15px;
   margin-top: 30px;
 }
