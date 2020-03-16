@@ -186,3 +186,96 @@ body {
     font-size: 17px;
     font-weight: bolder;
 }
+
+.grid-2__section{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.grid-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.grid-2__h2 {
+  font-size: 25px;
+  color: #f42;
+  cursor: pointer;
+}
+
+.grid-2__list {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.grid-2__list a {
+  color: #f42;
+  font-weight: 600;
+  text-decoration: none;
+  padding-right: 10px;
+  border-right: 1px solid #f42;
+}
+
+#list-special a {
+  border-right: none;
+}
+
+.grid-2__list a:hover,
+.grid-2__h2:hover {
+  color: #000;
+}
+
+.grid-2__deals {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  margin-top: 30px;
+}
+
+.grid-2__item {
+ background: #fffaf8; 
+}
+
+.grid-2__item-h5 {
+  background: #f42;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.grid-2__item-p {
+  background: rgba(255,68,34,.08);
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid-2__icons {
+  border-bottom: 1px solid rgba(255,68,34,.25);
+  padding: 15px 5px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.grid-2__icons span {
+  color: grey;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+.grid-2__icons span:hover {
+  color: #000;
+}
+
+.grid__footer {
+  padding: 10px 5px;
+  font-size: 12px;
+  color: grey;
+}
