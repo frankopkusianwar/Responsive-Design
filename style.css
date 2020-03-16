@@ -77,3 +77,112 @@ body {
   text-decoration: none;
   color: #000;
 }
+
+.top-container {
+  display: grid;
+  grid-template-columns: 1.9fr 1fr;
+  grid-gap: 10px;
+  width: 99%;
+  margin: 2px auto 100px;
+
+}
+
+.top-container__main {
+  display: flex;
+  flex-direction: column;
+  grid-row: 1/3;
+  background: url(img/main_bg.jpg) no-repeat;
+  background-size: cover;
+  height: 460px;
+  position: relative;
+  z-index: -2;
+  color: white;
+}
+
+.top-container__main::before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(img/gradient.png) no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+
+.top-container__main::after {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(to top, black 20%, transparent);
+    background-size: cover;
+    z-index: -1;
+  }
+
+.top-container__img {
+    width: 400px;
+    height: 300px;
+    padding: 20px 10px;
+}
+
+.top-container__main--txt h4{
+    padding: 20px 10px;
+}
+
+.top-container__main--txt h1{
+    padding: 20px 10px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+  
+.top-container__sidebar-1 {
+    background: url(img/sidebg1.png);
+    background-repeat: no-repeat;
+    color: white;
+    padding: 43px 10px;
+    background-size: cover;
+}
+
+.top-container__sidebar h2 {
+    padding-top: 80px;
+    font-weight: bolder;
+}
+
+.top-container__sidebar-2 {
+    background: url(img/sidebg2.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    padding: 43px 10px;
+    background-size: cover;
+    margin-top: 5px;
+}
+
+.grid-content1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 50px;
+}
+
+.content-1__header {
+    padding-left: 50px;
+    color: red;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.grid-content1__item-img img {
+    border: 1px solid red;
+    width: 100%;
+    height: 150px;
+    
+}
+
+.grid-content1__item {
+    padding: 10px;
+}
+
+.grid-content1__item p {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: bolder;
+}
