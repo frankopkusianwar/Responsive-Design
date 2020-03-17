@@ -253,6 +253,10 @@ body {
   color: grey;
 }
 
+.nav_1 a:hover {
+  color: white;
+}
+
 .nav_2 a:hover {
   color: #000;
 }
@@ -270,7 +274,6 @@ body {
   color: #8d8f8d;
 }
 
-.nav_1 a:hover,
 #special a {
   color: white;
 }
