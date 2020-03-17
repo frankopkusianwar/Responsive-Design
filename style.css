@@ -322,30 +322,37 @@ body {
 
 .grid-3__item--content__bg1 {
   background: url(img/img4.png);
+  background-repeat: no-repeat;
 }
 
 .grid-3__item--content__bg2 {
   background: url(img/img5.jpg);
+  background-repeat: no-repeat;
 }
 
 .grid-3__item--content__bg3 {
   background: url(img/img9.png);
+  background-repeat: no-repeat;
 }
 
 .grid-3__item--content__bg4 {
   background: url(img/img2.png);
+  background-repeat: no-repeat;
 }
 
 .grid-3__item--content__bg5 {
   background: url(img/img2.png);
+  background-repeat: no-repeat;
 }
 
 .grid-3__item--content__bg6 {
   background: url(img/img8.jpg);
+  background-repeat: no-repeat;
 }
 
 .grid-3__item--content__bg7 {
   background: url(img/img1.png);
+  background-repeat: no-repeat;
 }
 
 .grid-4__header {
@@ -695,4 +702,97 @@ body {
     margin-left: 10px;
     font-size: 20px;
   }
+
+  .grid-content1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 2px;
+    margin: 10px auto;
+    width: 100%;
+  }
+
+  .grid-content1__item {
+    display: flex;
+  }
+
+  .grid-content1__item-img {
+    width: 60px;
+    height: 40px;
+  }
+
+  .grid-content1__item-img img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .grid-content1__item p {
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-2__h2{
+    color: #f42;
+    font-size: 17px;
+  }
+
+  .grid-2__list {
+    display: flex;
+    flex-direction: column;
+    line-height: 15px;
+    margin-top: 5px;
+  }
+
+  .grid-2__list li a{
+    border: none;
+    font-size: 10px;
+  }
+
+  .grid-2__deals {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px auto;
+    width: 100%;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-3__item--content {
+    border: 1px solid yellow;
+    background-size: cover;
+    background: url(img/bgg1.PNG);
+    background-repeat: no-repeat;
+  }
+
+  .grid-4 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-4__item {
+    display: flex;
+    margin-top: 5px;
+    font-size: 10px;
+  }
+
+  .grid-4__bg {
+    width: 55px;
+    height: 60px;
+    margin-right: 10px;
+    background-position: center;
+  }
+
+  .grid-4__txt {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
 }
