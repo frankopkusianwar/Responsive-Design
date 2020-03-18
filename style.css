@@ -305,7 +305,7 @@ main {
 }
 
 .grid-3__item--content {
-  background: url(img/img6.png);
+  background: linear-gradient(rgba(236, 240, 241, 0.1), black), url(img/img6.png);
   background-repeat: no-repeat;
   text-align: start;
   align-items: baseline;
@@ -315,17 +315,40 @@ main {
 }
 
 .grid-3__item--content-txt {
-  padding: 180px 10px 0 10px;
+  padding: 150px 10px 0 10px;
   color: white;
   font-weight: bolder;
   line-height: 20px;
   cursor: pointer;
 }
 
-.grid-3__item--txt p {
-  padding: 20px;
-  font-weight: bolder;
+.grid-3__item--txt {
+  display: flex;
+  position: relative;
   background-color: rgba(255, 68, 34, 0.08);
+}
+
+.grid-3__item--txt p {
+  padding: 13px;
+  font-weight: bolder;
+}
+
+.p-special-2 {
+  font-size: 10px;
+  color: rgb(218, 216, 216);
+}
+
+.grid-3__img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-top: 3px;
+  width: 100px;
+  height: 153px;
+}
+
+.grid-3__img img{
+  width: 100%;
 }
 
 .grid-3__links {
@@ -345,37 +368,37 @@ main {
 }
 
 .grid-3__item--content__bg1 {
-  background: url(img/img4.png);
+  background: linear-gradient(rgba(236, 240, 241, 0.1), black), url(img/img4.png);
   background-repeat: no-repeat;
 }
 
 .grid-3__item--content__bg2 {
-  background: url(img/img5.jpg);
+  background: linear-gradient(rgba(236, 240, 241, 0.1), black), url(img/img5.jpg);
   background-repeat: no-repeat;
 }
 
 .grid-3__item--content__bg3 {
-  background: url(img/img9.png);
+  background: linear-gradient(rgba(236, 240, 241, 0.1), black), url(img/img9.png);
   background-repeat: no-repeat;
 }
 
 .grid-3__item--content__bg4 {
-  background: url(img/img2.png);
+  background: linear-gradient(rgba(236, 240, 241, 0.1), black), url(img/img2.png);
   background-repeat: no-repeat;
 }
 
 .grid-3__item--content__bg5 {
-  background: url(img/img2.png);
+  background: linear-gradient(rgba(236, 240, 241, 0.1), black), url(img/img2.png);
   background-repeat: no-repeat;
 }
 
 .grid-3__item--content__bg6 {
-  background: url(img/img8.jpg);
+  background: linear-gradient(rgba(236, 240, 241, 0.1), black), url(img/img8.jpg);
   background-repeat: no-repeat;
 }
 
 .grid-3__item--content__bg7 {
-  background: url(img/img1.png);
+  background: linear-gradient(rgba(236, 240, 241, 0.1), black), url(img/img1.png);
   background-repeat: no-repeat;
 }
 
