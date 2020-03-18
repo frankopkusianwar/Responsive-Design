@@ -493,7 +493,12 @@ body {
 }
 
 .footer-text {
-  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.hidden-br {
+  display: none;
 }
 
 #tnw {
@@ -799,4 +804,28 @@ body {
     display: flex;
     flex-direction: column;
   }
+
+  .first-footer__links {
+    width: 45%;
+    padding-right: 10px;
+  }
+
+  .first-footer__links_2 {
+    width: 40%;
+    padding-right: 10px;
+  }
+  .footer-text {
+    display: inline-block;
+    align-items: center;
+    line-height: 20px;
+  }
+
+  .footer-text__p {
+    padding-left: 45px;
+  }
+
+  .footer-text__p2 {
+    padding-left: 51px;
+  }
+
 }
