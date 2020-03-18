@@ -102,32 +102,12 @@ main {
   display: flex;
   flex-direction: column;
   grid-row: 1/3;
-  background: url(img/main_bg.jpg) no-repeat;
+  background: linear-gradient(rgba(211, 84, 0,0.7), black),url(img/main_bg.jpg) no-repeat;
   background-size: cover;
-  height: 457px;
+  height: 455px;
   position: relative;
   z-index: -2;
   color: white;
-}
-
-.top-container__main::before {
-  content: " ";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background: url(img/gradient.png) no-repeat;
-  background-size: cover;
-  z-index: -1;
-}
-
-.top-container__main::after {
-  content: " ";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: linear-gradient(to top, black 20%, transparent);
-  background-size: cover;
-  z-index: -1;
 }
 
 .top-container__img {
@@ -162,6 +142,7 @@ main {
 
 .top-container__sidebar-2 {
   background: linear-gradient(rgba(236, 240, 241, 0.7), rgba(44, 62, 80, 0.7)), url(img/sidebg2.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   color: white;
   padding: 43px 10px;
@@ -597,7 +578,7 @@ main {
     display: flex;
     flex-direction: column;
     grid-row: 1/3;
-    background: url(img/main_bg.jpg) no-repeat;
+    background: linear-gradient(rgba(211, 84, 0,0.7), black),url(img/main_bg.jpg) no-repeat;
     background-size: cover;
     height: 300px;
     position: relative;
@@ -610,8 +591,10 @@ main {
   }
 
   .top-container__main--txt h4 {
-    padding: 150px 70px 0 10px;
-    margin-left: 20px;
+    display: flex;
+    align-items: baseline;
+    padding-top: 140px;
+    padding-left: 25px;
   }
 
   .top-container__main--txt h1 {
@@ -669,6 +652,17 @@ main {
 
   .nav_2 li {
     padding-left: 5px;
+  }
+
+  .top-container__main--txt h4 {
+    display: flex;
+    align-items: baseline;
+    padding-top: 40px;
+    padding-left: 25px;
+  }
+
+  .top-container__sidebar-1 h2, .top-container__sidebar- h2{
+    padding-left: 20px;
   }
 }
 
