@@ -2,6 +2,18 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background: white;
+  z-index: 1;
+  top: 0;
+}
+main {
+  margin-top: 116px;
+}
+
 .navbar_1 {
   display: flex;
   padding: 10px 20px;
@@ -172,17 +184,20 @@ body {
   font-weight: bolder;
   font-size: 24px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .grid-content1__item-img img {
   width: 100%;
   height: 150px;
+  cursor: pointer;
 }
 
 .grid-content1__item p {
   margin-top: 10px;
   font-size: 17px;
   font-weight: bolder;
+  cursor: pointer;
 }
 
 .grid-2__section {
@@ -296,6 +311,7 @@ body {
   color: white;
   font-weight: bolder;
   line-height: 20px;
+  cursor: pointer;
 }
 
 .grid-3__item--txt p {
@@ -497,10 +513,6 @@ body {
   align-items: center;
 }
 
-.hidden-br {
-  display: none;
-}
-
 #tnw {
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;
@@ -522,7 +534,8 @@ body {
 }
 
 .grid-2__list a:hover,
-.grid-2__h2:hover {
+.grid-2__h2:hover,
+.content-1__header:hover {
   color: #000;
 }
 
@@ -532,8 +545,9 @@ body {
   color: white;
 }
 
-.grid-2__icons span:hover {
+.grid-2__icons span:hover, .grid-3__item h2:hover {
   color: #000;
+  cursor: pointer;
 }
 
 .nav_btn i:hover {
@@ -548,6 +562,15 @@ body {
 .first-footer__links li:hover {
   background: #000;
   border: 1px solid grey;
+}
+
+.grid-3__item--content-txt > h4:hover {
+  text-decoration: underline;
+}
+
+.grid-content1__item p:hover {
+  text-decoration: underline;
+  color: #f42;
 }
 
 #special a {
@@ -673,12 +696,16 @@ body {
 }
 
 @media screen and (max-width: 765px) {
+  main {
+    margin-top: 125px;
+  }
   .navbar_1 {
     display: none;
   }
 
   .nav_2 {
     display: none;
+    padding: 0;
   }
 
   .display-later {
@@ -707,6 +734,7 @@ body {
 
   .navbar_text {
     text-align: center;
+    padding: 30px 1px;
   }
 
   .top-container__main--txt h1 {
@@ -727,8 +755,8 @@ body {
   }
 
   .grid-content1__item-img {
-    width: 60px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
   }
 
   .grid-content1__item-img img {
@@ -737,7 +765,7 @@ body {
   }
 
   .grid-content1__item p {
-    font-size: 10px;
+    font-size: 14px;
     padding: 10px;
   }
 
@@ -748,7 +776,7 @@ body {
 
   .grid-2__h2 {
     color: #f42;
-    font-size: 17px;
+    font-size: 23px;
   }
 
   .grid-2__list {
@@ -758,9 +786,16 @@ body {
     margin-top: 5px;
   }
 
+  .grid-2__item-h5, .grid-2__item-p {
+    text-align: start;
+    padding-left: 90px;
+  }
+
   .grid-2__list li a {
     border: none;
-    font-size: 10px;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: lighter;
   }
 
   .grid-2__deals {
@@ -781,6 +816,15 @@ body {
     height: 500px;
   }
 
+  .grid-3__item--content h4,  .grid-3__item--content h5 {
+    text-align: start;
+    align-items: flex-start;
+  }
+
+  .grid-3__item--content h5 {
+    padding-top: 200px;
+  }
+
   .grid-4 {
     display: grid;
     grid-template-columns: 1fr;
@@ -788,15 +832,25 @@ body {
 
   .grid-4__item {
     display: flex;
-    margin-top: 5px;
-    font-size: 10px;
+    margin-top: -30px;
+    font-size: 13px;
   }
 
   .grid-4__bg {
-    width: 55px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     margin-right: 10px;
-    background-position: center;
+    background-position: cover;
+  }
+
+  .grid-4__header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .grid-4__header:hover {
+    color: #000;
+    cursor: pointer;
   }
 
   .grid-4__txt {
@@ -827,5 +881,4 @@ body {
   .footer-text__p2 {
     padding-left: 51px;
   }
-
 }
