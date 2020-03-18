@@ -102,7 +102,7 @@ main {
   display: flex;
   flex-direction: column;
   grid-row: 1/3;
-  background: linear-gradient(rgba(211, 84, 0,0.7), black),url(img/main_bg.jpg) no-repeat;
+  background: linear-gradient(rgba(211, 84, 0, 0.7), black), url(img/main_bg.jpg) no-repeat;
   background-size: cover;
   height: 455px;
   position: relative;
@@ -698,6 +698,9 @@ main {
 
   .top-container__sidebar-1 h2, .top-container__sidebar- h2{
     padding: 5px;
+  /* .top-container__sidebar-1 h2,
+  .top-container__sidebar- h2 {
+    padding-left: 20px; */
   }
 }
 
