@@ -10,6 +10,7 @@ header {
   z-index: 1;
   top: 0;
 }
+
 main {
   margin-top: 116px;
 }
@@ -545,7 +546,8 @@ main {
   color: white;
 }
 
-.grid-2__icons span:hover, .grid-3__item h2:hover {
+.grid-2__icons span:hover,
+.grid-3__item h2:hover {
   color: #000;
   cursor: pointer;
 }
@@ -699,6 +701,7 @@ main {
   main {
     margin-top: 125px;
   }
+
   .navbar_1 {
     display: none;
   }
@@ -786,7 +789,8 @@ main {
     margin-top: 5px;
   }
 
-  .grid-2__item-h5, .grid-2__item-p {
+  .grid-2__item-h5,
+  .grid-2__item-p {
     text-align: start;
     padding-left: 90px;
   }
@@ -816,7 +820,8 @@ main {
     height: 500px;
   }
 
-  .grid-3__item--content h4,  .grid-3__item--content h5 {
+  .grid-3__item--content h4,
+  .grid-3__item--content h5 {
     text-align: start;
     align-items: flex-start;
   }
@@ -868,6 +873,7 @@ main {
     width: 40%;
     padding-right: 10px;
   }
+
   .footer-text {
     display: inline-block;
     align-items: center;

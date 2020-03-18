@@ -1,11 +1,11 @@
-# Design Teardown
+# Responsive Design
 
 > This project consists of building a responsive web page that can be viewed on different screen sizes and devices
 
 Screenshot of Page
 
-![screenshot 1]() 
-![screenshot 2]() 
+![screenshot 1](img/screen.PNG) 
+![screenshot 2](img/screen2.PNG) 
 
 > To achieve this output we had to first layout the web page and then use media queries to add styles specific to different screen and device sizes.
 
@@ -14,7 +14,7 @@ Screenshot of Page
 - Html,
 - Css
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/frankopkusianwar/Responsive-Design/201593a98e606648628f05f49f2a4a9f60f19f34/index.html)
 
 ## Authors
 
@@ -34,7 +34,7 @@ Screenshot of Page
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/OA7/Design-Teardown/issues).
+Feel free to check the [issues page](https://github.com/frankopkusianwar/Responsive-Design/issues).
 
 ## Show your support
 
